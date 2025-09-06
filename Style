@@ -1,0 +1,44 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color:#c6c6c6;
+    text-decoration: none;
+}
+.grade{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    background-color:#c6c6c6;
+}
+#home{
+    background: #ee2211;
+    border-radius: 5px;
+    padding: 7px 10px;
+    color: white;
+}
+.live{
+    display: grid;
+    place-content: end;
+    gap: 2px;
+    background-color:#c6c6c6;
+}
+body{
+    background-color:#f7f7f7;
+}
+#big{
+    display: grid;
+    align-content: end;
+    gap: 2px;
+    font-size: 64px;
+}
+p{
+    font-size: 20px;
+}
+img{
+    width: 100%;
+    border-radius: 5px;
+}
