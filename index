@@ -7,12 +7,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-              <h1>Robocraft</h1>
-              
-             <a href="#">Sobre</a>
-             <a href="#">Produtos</a>
-             <a href="#">Lojas</a>
-             <a href="#">Contatos</a>
+    
+    <img src="imagens/ROBOCRAFT.png" alt="logo robocraft" id="logo">
+
+    <div class="menu">
+        <a href="#">Sobre</a>
+        <a href="#">Produtos</a>
+        <a href="#">Lojas</a>
+        <a href="#">Contato</a>
+    </div>
 
      <div class="fazer">
 
@@ -51,15 +54,9 @@
 
      </div>
 
-        <h3>Robocraft.Alguns direitos reservados</h3>
-
-
-
-
-
-
-
-
+     <footer class="rodape">
+        <p>© Robocraft. Alguns Direitos reservados.</p>
+      </footer>
 
 </body>
 </html>
