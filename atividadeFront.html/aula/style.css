@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f7f7f7;
+}
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px;
+}
+a{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    border-radius: 4px;
+}
+a:hover {
+    background-color: #9b9696;
+    color: white;
+}
+.grade{
+    display: grid; /* estou dizendo que eles vão ficar em formato de grade */
+    grid-template-columns: 1fr 1fr;  /* ele via divir o espaço com o texto e a imagem   */
+    gap: 1px; /*  distancia entre eles */
+    background-color:#fff;
+}
+.text{
+    
+    text-align: right;  /* ele esta alinhando o texto para a esquerda */
+    padding-top: 40px;
+    margin: 50px; /*  e a parte ao redor da minha grade*/
+
+}
+.btn{
+    background: #ee2211;
+    border-radius: 5px;
+    padding: 10px 30px;
+    color: white;
+     border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.vantagens-grid{
+    padding: 90px 60px;
+    background-color: #fff;
+    gap: 80px;
+     width: 100%;
+    max-width: 1000px;
+        margin-top: -100px;
+    
+}
+.vantagens {
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* ele vai dividir o meu espaço em duas colunas e a segunda
+    coluna ocupara um espaço maior que a primeira */
+    gap: 85px; /* Seria o espaçamento entre uma coluna e outra*/
+    padding: 30px; /* Serve para criar um espaço entre seu conteudo e sua borda*/
+    margin: 70px auto;
+   max-width: 1000px;
+}
+.text-1, .text-2, .text-3 {
+
+    padding: 20px;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 8px;
+    margin: 0;
+    
+}
+.emblemas{
+    display: grid;
+    grid-template-columns: 50px 1fr; /* ícone/box + texto */
+    gap: 15px; /* espaço entre colunas */
+    align-items: center; /* centraliza verticalmente */
+}
+
+#big{
+   font-size: 64px;
+   color: #c6c6c6;
+   text-align: right;
+}
+p{
+    font-size: 20px;
+}
+.imagem img{
+    width: 100%;
+    border-radius: 5px;
+}
+.rodape{
+    text-align: center;
+}
+.icone{
+    width: 35px;
+    height: 35px;
+}
