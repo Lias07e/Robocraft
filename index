@@ -1,64 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-       <img src="imagens/ROBOCRAFT.png" alt="logo robocraft" id="logo"> 
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <img src="imagens/ROBOCRAFT.png" alt="logo robocraft" id="logo" />
 
-        <div class="menu">
-                    <a href="#">Sobre</a> 
-                        <a href="#">Produtos</a> 
-                                   <a href="#">Lojas</a> 
-                                         <a href="#">Contato</a>
-         </div>
+    <div class="menu">
+      <a href="#">Sobre</a>
+      <a href="#">Produtos</a>
+      <a href="#">Lojas</a>
+      <a href="#">Contato</a>
+    </div>
 
-                                     <div class="fazer">
-                            <div class="grade"> 
-                 <div class="text"> 
-            <h2>Robos de ultima geração</h2> 
-                      <p> O promatheus é a melhor Robocraft já criado pela<br> 
-                                        nossa equipe.Ele vem equipado com os melhores<br>
-                                                         acessorios da marca e é atualmente o<br>
-                                           mais moderno das catecogias.</p>      
-                        <p><button class="btn">Ver mais</button></p> 
-                     </div>
+    <div class="fazer">
+      <div class="grade">
+        <div class="text">
+          <h2>Robos de ultima geração</h2>
+          <p>
+            O promatheus é a melhor Robocraft já criado pela<br />
+            nossa equipe.Ele vem equipado com os melhores<br />
+            acessorios da marca e é atualmente o<br />
+            mais moderno das catecogias.
+          </p>
+          <p><button class="btn">Ver mais</button></p>
+        </div>
 
-                           <div class="imagem">
-                                      <img src="./imagens/robot.png" alt=""> 
-                              </div>  
+        <div class="imagem">
+          <img src="./imagens/robot.png" alt="" />
+        </div>
+      </div>
+      <div class="vantagens">
+        <h2 id="big">VANTAGENS<br />PROMATHEUS</h2>
+        <div class="vantagens-grid">
+          <div class="text-1">
+            <h3>Inteligencia Emocional</h3>
+            <p>Nosso algoritmo de <br />ponta com atualizações mensais</p>
+          </div>
 
-                  </div>
-                         <div class="vantagens">
-                                <h2 id="big">VANTAGENS<br>PROMATHEUS</h2>
-                                                         <div class="vantagens-grid">
-                                          <div class="text-1"> 
-                       <h3>Inteligencia Emocional</h3> 
-        <p>Nosso algoritmo de 
-                       <br>ponta com atualizações mensais</p>
-                </div>
+          <div class="text-2">
+            <h3>10 Nucleos</h3>
+            <p>
+              Movimentos precisos e fluidos com o <br />
+              processador mais rapido do mercado
+            </p>
+          </div>
 
-                             <div class="text-2">
-                                            <h3>10 Nucleos</h3> 
-                                       <p>Movimentos precisos e fluidos com o <br>
-                 processador mais rapido do mercado</p>
-                </div>
-
-            <div class="text-3"> 
-                         <h3>Rasterador</h3>
-                               <p>Rastreador e sistema anti-furto <br>
-                                                   para garantir o sossego</p> 
-                        </div>
-
-                    </div>
-
-                         </div> 
-                                <footer class="rodape"> 
-                                    <p>© Robocraft. Alguns Direitos reservados.</p> 
-                               </footer>
-                         
-</body>
+          <div class="text-3">
+            <h3>Rasterador</h3>
+            <p>
+              Rastreador e sistema anti-furto <br />
+              para garantir o sossego
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="rodape">
+      <p>© Robocraft. Alguns Direitos reservados.</p>
+    </footer>
+  </body>
 </html>
